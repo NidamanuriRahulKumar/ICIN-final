@@ -34,7 +34,13 @@ export class UserAccountComponent implements OnInit {
   	}	
 
   	enableUser(username: string) {
-  		//this.userService.enableUser(username).subscribe();
+  		this.userService.enableUser(username).subscribe(response => {
+				console.log(response)
+			},
+			error => {
+				console.log(error)
+			}
+		);
   		location.reload();
   	}
 

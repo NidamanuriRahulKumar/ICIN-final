@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { isSyntheticPropertyOrListener } from '@angular/compiler/src/render3/util';
-import { TitleCasePipe } from '@angular/common';
+//import { isSyntheticPropertyOrListener } from '@angular/compiler/src/render3/util';
+//import { TitleCasePipe } from '@angular/common';
 
 @Component({
   selector: 'app-address-details',

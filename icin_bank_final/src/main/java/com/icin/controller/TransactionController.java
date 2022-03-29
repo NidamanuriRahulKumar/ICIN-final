@@ -22,6 +22,7 @@ import com.icin.service.TransactionService;
  *
  */
 @RestController
+@CrossOrigin(origins = "http://localhost:4201")
 public class TransactionController {
 
     /*
